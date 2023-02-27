@@ -16,6 +16,6 @@ setuptools.setup(
         "Bug Tracker": "https://github.com/frankbreetz/privatepackagetest/issues"
     },
     license='MIT',
-    packages=['toolbox'],
-    install_requires=['privatepackage'],
+    packages=['privatepackage'],
+    install_requires=['requests'],
 )
