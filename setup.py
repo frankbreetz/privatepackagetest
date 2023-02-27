@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name='toolbox',
+    name='privatepackage',
     version='0.0.3',
     author='Frank Breetz',
     author_email='frank.breetz@gmail.com',
